@@ -1,0 +1,7 @@
+services:
+  jetlag:
+    build: .
+    container_name: jetlag-hideandseek
+    restart: unless-stopped
+    ports:
+      - "1000:80"
